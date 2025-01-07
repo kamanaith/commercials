@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+
+.nav-wrapper{
+    background-color:antiquewhite;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.nav-logo{
+  margin-left: 2rem;
+}
+.menu-wrapper{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 1rem;
+gap: 1rem;
+align-items: center;
+}
+.menu-wrapper a{
+   color: black;
+   text-align: center;
+   gap: 2rem;
+}
+
+.banner-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+.banner-wrapper .image{
+    padding: 1rem;
+    
+}
+.signupdetails{
+ margin: 5%;
+}
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-sizing: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-wrapper h1{
+    font-size:xx-large;
+    padding: 1rem;
+}
+p{
+    font-size: small;
+}
+.form-wrapper input{
+    width: 100%;
+}
+.btn1{
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    background-color: red;
+    margin-top: 15px;
+    color: black;
+    border: none;
+    text-align: justify;
+}
+.btn2{
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    color: black;
+    border: none;
+    text-align: justify;
+}
+
+.buttons-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-wrapper{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.qrcode{
+    height: 5rem;
+    width: 5rem;
+}
+.download-wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.btn-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
