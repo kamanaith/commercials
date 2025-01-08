@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project2</title>
     <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <nav>
         <div class=" nav-wrapper">
             <div class="nav-logo">
-                <h1>logo</h1>
+                <h1>Exclusive</h1>
             </div>
             <div class="menu-wrapper">
                 <a>Home </a>
@@ -18,69 +19,81 @@
                 <a>About</a>
                 <a> SignUp</a>
             </div>
-            <input placeholder="What are you looking for?">
+            <div class="search1">
+            <input class="seach-field" placeholder="search.." type="text"/>
             <i class="fas fa-search"></i>
+        </div>
+        </form> 
         </div>
     </nav>
     <section class="banner">
         <div class="banner-wrapper">
-        
+            <div>
                 <img src="assets/images/authImg.png" alt="image" class="image">
-            
+            </div>
             <div class="signupdetails">
-                <h2>Create you account</h2>
+                <h1>Create you account</h1>
                 <p>Enter your details below!</p>
                 <div class="form-wrapper">
-                <input placeholder=" name" type="text" class="form">
+                <input placeholder=" Name" type="text" class="form">
                 <input placeholder="Email or phone number" type="email/numbers" class="form">
-                <input placeholder="password" type="password" class="form">
-            </div>
+                <input placeholder="Password" type="password" class="form">
+            
             <div class="button-wrapper">
                 <button class="btn1"> Create Account</button>
-                <button class="btn2"> sign up with google</button>
+                <button class="btn2"><img src="assets/images/googleIcon.png" alt="google-icon" class="googleicon"></img> <p>sign up with google</p></button>
             </div>
+        </div>
         </div>
         </div>
     </section>
 <footer>
     <div class="footer-wrapper">
     <div class="exclusive">
-        <h3>Exclusive</h3>
+        <h2>Exclusive</h2>
         <p>Subscribe</p>
         <p>Get 80% off on your first order.</p>
         <input placeholder="Enter your email " type="email">
+        <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
     </div>
-    <div>
-        <h3>Support</h3>
-        <P> Youthit,Itahari<br>NEP 977+ Nepal </P>
+    <div class="support">
+        <h2>Support</h2>
+        <p> Youthit,Itahari</p>
+        <p>977+ Nepal </p>
         <p> youthit@gmail.com</p>
         <p>977-98000000</p>
     </div>
-    <div>
-        <h3>Account</h3>
+    <div class="account">
+        <h2>Account</h2>
         <p>login/Register</p>
         <p>Cart</p>
         <p>Wishlist</p>
         <p>shop</p>
     </div>
-    <div>
+    <div class="quicklink">
         <h2>Quick Link</h2>
         <p> Privacy Policy</p>
         <p>Terms of use</p>
         <p>FAQ</p>
         <P>Contact</P>
     </div>
-    <div>
-        <h1>Download App</h1>
+    <div class="Download">   
+        <h2>Download App</h2>
         <div class="download-wrapper">
-            <div>
-            <img src="assets/images/qrImg.png" alt="qrcode" class="qrcode">
-        </div>
+            <div class="qr">
+                <img src="assets/images/qrImg.png" alt="qrcode" class="qrcode">
+            </div>
             <div class="btn-wrapper">
                 <button class="playstore-btn"><img src="assets/images/googlePlay (1).png"> </button>
                 <button class="appstore-btn"><img src="assets/images/appStore (1).png"></button>
             </div>
         </div>
+            <div class="media-wrapper">
+               <div class="icon"> <i class="fa-brands fab fa-instagram"></i></div>
+                <div class="icon"> <i class="fa-brands fab fab fa-facebook"></i></div>
+                <div class="icon"><i class="fa-brands fab fab fa-twitter"></i></div>
+                <div class="icon"><i class="fa-brands fab fab fa-linkedin"></i></div>
+            </div>
     </div>
 </div>
 </footer>

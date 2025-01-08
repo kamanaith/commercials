@@ -1,114 +1,221 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-body{
-    background-color: beige;
+body {
+  background-color: beige;
 }
-
-.nav-wrapper{
-    background-color:antiquewhite;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 10%;
+.nav-wrapper {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-.nav-logo{
-  margin-left: 2rem;
-}
-.menu-wrapper{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-padding: 1rem;
-gap: 1rem;
-align-items: center;
-}
-.menu-wrapper a{
-   color: black;
-   text-align: center;
-   gap: 2rem;
+.nav-wrapper input {
+  border: none;
+  width: 50%;
 }
 
-.banner-wrapper{
-    display: flex;
-    flex-direction: row;
-    margin: 2rem;
+.nav-wrapper input:focus {
+  outline: none;
 }
-.banner-wrapper .image{
-    padding: 1rem;
-    
+.nav-wrapper .fas {
+  background-color: white;
 }
-.signupdetails{
- margin: 5%;
+.menu-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
 }
-.form-wrapper{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    box-sizing: 15px;
-    align-items: center;
-    justify-content: space-around;
-}
-.form-wrapper h1{
-    font-size:xx-large;
-    padding: 1rem;
-}
-p{
-    font-size: small;
-}
-.form-wrapper input{
-    width: 100%;
-}
-.btn1{
-    padding: 5px;
-    width: 100%;
-    height: auto;
-    background-color: red;
-    margin-top: 15px;
-    color: black;
-    border: none;
-    text-align: justify;
-}
-.btn2{
-    padding: 5px;
-    width: 100%;
-    height: auto;
-    margin-top: 15px;
-    color: black;
-    border: none;
-    text-align: justify;
+.menu-wrapper a {
+  color: black;
+  text-align: center;
+  gap: 2rem;
 }
 
-.buttons-wrapper{
-    display: flex;
-    flex-direction: row;
+.banner-wrapper .image {
+  padding: 4rem;
+  height: 50%;
+  width: 100%;
+  padding: auto;
 }
-footer{
-    background-color: black;
-    color: white;
+.signupdetails {
+  text-align: center;
+}
+.signupdetails h1 {
+  font-size: 3rem;
+}
+.signupdetails p {
+  font-size: 2rem;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  box-sizing: 30px;
+  gap: 1rem;
+  padding: 2px;
+  justify-content: space-around;
+}
+.form {
+  padding: 5px;
+  border: none;
+  width: 50%;
+  height: auto;
+}
+p {
+  font-size: medium;
+  padding: 3px;
+}
+
+.btn1 {
+  padding: 10px;
+  
+  width: 100%;
+  height: auto;
+  background-color: red;
+  margin-top: 15px;
+  color: black;
+  border: none;
+  text-align: center;
+}
+.btn1 p{
+  font-size: 10px;
+}
+.btn2 {
+  padding: 10px;
+  width: 100%;
+  font-size: 1px;
+  margin-bottom: 29px;
+  height: auto;
+  margin-top: 15px;
+  color: black;
+  border: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn2 p{
+  font-size: 10px;
+}
+footer {
+  background-color: black;
+  color: white;
 }
 .footer-wrapper{
-    padding: 5%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.download-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.download-wrapper .btn-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.footer-wrapper input {
+  padding: 2px;
+}
+
+.qrcode {
+  height: 5rem;
+  width: 5rem;
+}
+.Download .media-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 10PX;
+}
+
+@media screen and (min-width: 1024px) {
+  .search1 {
+    background-color: white;
+    padding: 5px;
+    width: 30%;
+    display: flex;
+  }
+  .search1 .seach-field {
+    width: 100%;
+  }
+  .search1 i {
+    cursor: pointer;
+  }
+  .banner-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .banner-wrapper .image {
+    padding: 1rem;
+    height: auto;
+    width: 100%;
+    padding: auto;
+  }
+
+  .signupdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .signupdetails .form{
+    width: 100%;
+  }
+  .btn2 {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 10rem;
+  }
+
+  .footer-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.qrcode{
-    height: 5rem;
-    width: 5rem;
-}
-.download-wrapper{
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-}
-.btn-wrapper{
+    text-align: center;
+    color: white;
+  }
+  .footer-wrapper div{
     display: flex;
     flex-direction: column;
-    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  .Download .download-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+  footer h2 {
+    padding: 15px;
+  }
+  footer p {
+    font-size: large;
+    padding: 4px;
+  }
 }
