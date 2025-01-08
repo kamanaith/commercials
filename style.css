@@ -20,8 +20,12 @@ body {
   width: 30px;
   height: 4px;
   size: 40px ;
+  border-radius: 25%;
   margin-right: 25%;
   background-color: black;
+}
+.hamburgericon{
+  border-radius: 5%;
 }
 .aside-bar{ 
   position: relative;
@@ -75,12 +79,13 @@ body {
   text-align: center;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
+padding:1rem;
 }
 .nav-wrapper input {
   border: none;
-  width: 50%;
+  width: 75%;
+  height: 1.7rem;
+  padding: 5px;
 }
 
 .nav-wrapper input:focus {
@@ -88,6 +93,9 @@ body {
 }
 .nav-wrapper .fas {
   background-color: white;
+  height: 2rem;
+  font-size: medium;
+  padding: 0.5rem;
 }
 .menu-wrapper {
   display: flex;
@@ -211,7 +219,34 @@ footer {
   padding: 10PX;
 }
 
+
+
+
+
+
 @media screen and (min-width: 1024px) {
+
+  .nav-wrapper {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .fa .fa-bars .hamburger{
+    display: none;
+  }
+  .nav-wrapper .menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .hamburgericon{
+    display: none;
+  }
   .search1 {
     background-color: white;
     padding: 5px;
@@ -253,7 +288,6 @@ footer {
     text-align: center;
     min-width: 10rem;
   }
-
   .footer-wrapper {
     margin-left: 5%;
     margin-right: 5%;
