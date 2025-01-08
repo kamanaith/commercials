@@ -5,6 +5,68 @@
 }
 body {
   background-color: beige;
+  display: flex;
+  flex-direction: column;
+}
+.hamburgericon{
+  cursor: pointer;
+}
+
+
+
+/* Css for aside bar */
+.fa .fa-bars .hamburger{
+    
+  width: 30px;
+  height: 4px;
+  size: 40px ;
+  margin-right: 25%;
+  background-color: black;
+}
+.aside-bar{ 
+  position: relative;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  position: fixed;
+  background: antiquewhite;
+  height: 50%;
+  top: 0;
+  right:-100%; 
+  width: 30%;
+  height: 100%;
+  transition: 0.3s all ease-in;
+}
+.aside-bar button{
+  position: absolute;
+ top: 4%;
+ right: 5%;
+ font-size: 1.3rem;
+}
+.aside-bar.active{
+  display: flex;
+  flex-direction: column;
+  visibility: visible;
+  right: 0%;
+  /* right: 0; */
+}
+.fas.fa-multiply{
+  cursor: pointer;
+
+}
+.aside-bar .links{
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  color: black;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+ .nav-wrapper .menu-wrapper{
+  display: none;
 }
 .nav-wrapper {
   background-color: antiquewhite;
