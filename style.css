@@ -8,8 +8,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* hello  */
 .hamburgericon{
+  
   cursor: pointer;
+
 }
 
 
@@ -39,7 +43,7 @@ body {
   height: 50%;
   top: 0;
   right:-100%; 
-  width: 30%;
+  width: 75%;
   height: 100%;
   transition: 0.3s all ease-in;
 }
@@ -47,7 +51,8 @@ body {
   position: absolute;
  top: 4%;
  right: 5%;
- font-size: 1.3rem;
+ font-size: 3rem;
+ padding: 1rem;
 }
 .aside-bar.active{
   display: flex;
@@ -66,7 +71,7 @@ body {
   flex-direction: column;
   color: black;
   text-decoration: none;
-  font-size: x-large;
+  font-size: 3rem;
 }
 
  .nav-wrapper .menu-wrapper{
@@ -205,7 +210,10 @@ footer {
 .footer-wrapper input {
   padding: 2px;
 }
-
+.footer-wrapper .inputitems{
+  display: flex;
+  flex-direction: row;
+}
 .qrcode {
   height: 5rem;
   width: 5rem;
